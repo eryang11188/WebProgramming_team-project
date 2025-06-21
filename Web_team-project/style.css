@@ -1,0 +1,247 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #eef5ff; 
+}
+
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-wrapper img {
+  width: 48px;
+  height: 48px;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #002f6c; 
+  font-weight: 800;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+.button-groups {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 16px 0;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: #f2f9ff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button-group label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #003e80;
+}
+
+.button-group button {
+  margin: 0 2px;
+}
+
+#filterButtons, #sortButtons {
+  display: flex;
+  gap: 8px;
+}
+
+#filterButtons button,
+#sortButtons button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e0efff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#filterButtons button:hover,
+#sortButtons button:hover {
+  background-color: #c5e1ff;
+}
+
+#filterButtons button.active,
+#sortButtons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #b6d7ff;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f7fbff;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #003e80;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #ffffff;
+  border: 1px solid #c0daf8;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+table th,
+table td {
+  border: 1px solid #b8dbf9;
+  padding: 8px;
+  text-align: center;
+  background-color: #f0faff;
+}
+
+table th {
+  background-color: #b0d8f8;
+  font-weight: bold;
+  color: #003e80;
+}
+
+table td.deadline-past,
+table td.expired {
+  background-color: #ffe1e1;
+  color: #c10000;
+  font-weight: bold;
+  border: 1px solid #ffbcbc;
+}
+
+.search-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#searchInput {
+  width: 240px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button.editing {
+  background-color: #ffc107 !important;
+  color: black !important;
+  border: 2px solid #ffa000;
+}
+
+.inline-edit-form td[colspan] {
+  padding: 16px;
+}
+
+.inline-edit-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inline-edit-form input {
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 180px;
+}
+
+.inline-edit-form button {
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inline-edit-form button.cancel-btn {
+  background-color: #ccc;
+  color: black;
+}

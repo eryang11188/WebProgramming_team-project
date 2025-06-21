@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "맥북pro",
+    "deadline": "2025-10-20",
+    "isSold": false
+  },
+  {
+    "id": 2,
+    "title": "이산수학 교재",
+    "deadline": "2023-07-29",
+    "isSold": true
+  },
+  {
+    "id": 3,
+    "title": "갤럭시 S21 울트라",
+    "deadline": "2025-05-19",
+    "isSold": true
+  },
+  {
+    "id": 4,
+    "title": "iphone 13 pro",
+    "deadline": "2022-09-19",
+    "isSold": false
+  },
+  {
+    "id": 5,
+    "title": "<무료나눔> 국내산 사과 1박스",
+    "deadline": "2025-02-13",
+    "isSold": true
+  },
+  {
+    "id": 6,
+    "title": "클래식 기타",
+    "deadline": "2021-03-22",
+    "isSold": true
+  },
+  {
+    "id": 7,
+    "title": "Sony A6000 irrorless camera",
+    "deadline": "2025-07-29",
+    "isSold": false
+  },
+  {
+    "id": 8,
+    "title": "최애의 아이 피규어",
+    "deadline": "2013-02-29",
+    "isSold": true
+  },
+  {
+    "id": 9,
+    "title": "추억의 레고드판 세트",
+    "deadline": "2028-07-29",
+    "isSold": true
+  },
+  {
+    "id": 10,
+    "title": "프라다 바람막이 L사이즈",
+    "deadline": "2025-07-30",
+    "isSold": true
+  },
+  {
+    "id": 11,
+    "title": "청동기 시대 유물",
+    "deadline": "1859-02-30",
+    "isSold": false
+  },
+  {
+    "id": 12,
+    "title": "맥도날드 멕스파이시 기프티콘",
+    "deadline": "2025-12-30",
+    "isSold": true
+  },
+  {
+    "id": 13,
+    "title": "삼성프린터",
+    "deadline": "2025-04-30",
+    "isSold": false
+  },
+  {
+    "id": 14,
+    "title": "삼성 에어컨",
+    "deadline": "2025-11-28",
+    "isSold": true
+  }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>중고거래 스타일 todos_v4 리스트</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo-wrapper">
+      <img src="images.jpg" alt="로고">
+      <h1>CWNU 중고마켓</h1>
+    </div>
+
+    <form id="addItemForm" class="form-inline">
+      <input type="text" id="newItemTitle" placeholder="등록할 물품명 입력:" required />
+      <input type="date" id="newItemDeadline" required />
+      <button type="submit">등록(추가)</button>
+    </form>
+
+    <div class="button-groups">
+      <div class="button-group">
+        <label>보기 방식</label>
+        <button id="toggleView">변경</button>
+      </div>
+      <div class="button-group">
+        <label>거래상태 정렬</label>
+        <div id="filterButtons">
+          <button data-filter="all" class="filter-btn active">전체</button>
+          <button data-filter="unsold" class="filter-btn">거래중</button>
+          <button data-filter="sold" class="filter-btn">거래완료</button>
+        </div>
+      </div>
+      <div class="button-group">
+        <label>마감일 정렬</label>
+        <div id="sortButtons">
+          <button data-sort="asc">빠른순</button>
+          <button data-sort="desc">늦은순</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="물건 검색" />
+    </div>
+  </div>
+
+  <div id="itemList"></div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
