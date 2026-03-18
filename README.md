@@ -4,12 +4,19 @@
 * **과제명:** To-Do List 업그레이드 (Version 3 → Version 4)
 * **제출자:** 정이량(2022 2017), 황왕석(2022 2161)
 * **제출일:** 2025년 06월 23일
+* **과목명:** _웹 프로그래밍_
+* **교수명:** _이 혁_
 * [**GitHub 원격 저장소**](https://github.com/eryang11188/WebProgramming.git)
 
 >**simple_todos_v4.json 파일도 첨부**
 **(프로젝트에서 파일 확인하실 때 기능 확인이 용이함)**
 
+## 실행 방법:
 
+반드시 `WebProgramming_team-project/` 에 `npm init -y`, `npm install express` 후, 
+터미널에 `node todos_v4.js` 입력하여 `localhost` 로 실행!
+
+> _`package.json` 과 `node_modules` 가 존재해야 하므로_
 
 
 ## 2. 서론
