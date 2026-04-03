@@ -6,7 +6,7 @@
 * **제출일:** 2025년 06월 23일
 * **과목명:** _웹 프로그래밍_
 * **교수명:** _이 혁_
-* [**GitHub 원격 저장소**](https://github.com/eryang11188/WebProgramming.git)
+* [**GitHub 원격 저장소**](https://github.com/jeongiryang/WebProgramming_team-project.git)
 
 >**simple_todos_v4.json 파일도 첨부**
 **(프로젝트에서 파일 확인하실 때 기능 확인이 용이함)**

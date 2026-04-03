@@ -1,0 +1,24 @@
+{
+  "name": "webprogramming_team-project",
+  "version": "1.0.0",
+  "description": "<h1 style=\"text-align:center\">웹프로그래밍 프로젝트 보고서</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeongiryang/WebProgramming_team-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jeongiryang/WebProgramming_team-project/issues"
+  },
+  "homepage": "https://github.com/jeongiryang/WebProgramming_team-project#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
